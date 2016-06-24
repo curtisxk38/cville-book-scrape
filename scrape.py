@@ -1,6 +1,5 @@
 import requests
 from lxml import html
-import urllib.request
 
 class CatalogItem():
 	def __init__(self, title, link, details, availability, copies, origin):
